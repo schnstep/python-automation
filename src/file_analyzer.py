@@ -35,6 +35,10 @@ def analyze_directory(directory_path):
 
     # Iterate through files
     for item in path.iterdir():
+        # Skip hidden files
+        if item.name.startswith('.'):
+            continue
+
         if item.is_file():
             stats["total_files"] += 1
 
