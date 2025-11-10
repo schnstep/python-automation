@@ -1,0 +1,23 @@
+{
+  "client_id": "ACME001",
+  "name": "Acme Corporation",
+  "projects": [
+    {
+      "name": "Invoice Automation",
+      "status": "active",
+      "budget": 15000,
+      "hours_saved_weekly": 25
+    },
+    {
+      "name": "Email Classification",
+      "status": "completed",
+      "budget": 8000,
+      "hours_saved_weekly": 15
+    }
+  ],
+  "contact": {
+    "name": "John Smith",
+    "email": "john@acme.com",
+    "phone": "+43 123 456789"
+  }
+}
